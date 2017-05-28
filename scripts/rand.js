@@ -1,5 +1,3 @@
-  <script>
-
 function randomElementOf(theArray) {
   return theArray[Math.floor(Math.random() * theArray.length)];
 } // close function
@@ -43,5 +41,3 @@ document.getElementById("desc").innerHTML = mi.des;
 var mea = '<meta property="og:title" content="You are ' +  mi.name;
 mea +=  '"/><meta property="og:image" content="images/' + mi.image + '"  />';
 document.getElementById("met").innerHTML = mea;
-
-</script>
