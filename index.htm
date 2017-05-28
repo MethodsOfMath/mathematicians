@@ -1,5 +1,9 @@
 <html>
 <head>
+  <meta property="og:type" content="article" />
+<meta property="og:url" content="https://methodsofmath.github.io/mathematicians/" />
+<div id="met"></div>
+  
 <title id="title"></title>
 </head>
 
@@ -54,10 +58,21 @@ mathematicians = [{
 
 mi = randomElementOf(mathematicians);
 
+// Title
 document.getElementById("title").innerHTML = "You are " + mi.name;
+// image
 document.getElementById("image").innerHTML = '<img src="images/' + mi.image + '">';
+
+// heading
 document.getElementById("youAre").innerHTML = "You are " + mi.name;
+
+// description
 document.getElementById("desc").innerHTML = mi.des;
+    
+// meta
+var mea = '<meta property="og:title" content="You are ' +  mi.name;
+mea +=  '"/><meta property="og:image" content="images/' + mi.image + '"  />';
+document.getElementById("met").innerHTML = mea;
 
 </script>
   
