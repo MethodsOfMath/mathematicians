@@ -1,0 +1,27 @@
+<html>
+<head>
+<title id="title"></title>
+</head>
+
+<body>
+<p id="image"></p>
+</body>
+
+<script>
+function randomElementOf(theArray) {
+  return theArray[Math.floor(Math.random() * theArray.length)];
+} // close function
+
+mathematicians = [{
+"name" : "Galileo",
+"des": "You cannot stand devotion to archaic works that do not stand up to emprical evidence. You may go along to get along, but you'll mutter the truth under your breath",
+"image": "galileo.jpg"
+}
+];
+
+mi = randomElementOf(mathematicians);
+
+document.getElementById("title").innerHTML = "You are " + mi.name;
+document.getElementById("image").innerHTML = '<img scr = "images/' + mi.image + '">'; 
+
+</script>
