@@ -24,7 +24,7 @@ mathematicians = [{
   },
   {
     "name": "Archimedes",
-    "des": "If you had a big enough lever, you could move the world. Some of your best ideas come to you in the bathtub."
+    "des": "If you had a big enough lever, you could move the world. Some of your best ideas come to you in the bathtub.",
     "image": "arch.jpg"
   },
   {
