@@ -16,7 +16,7 @@
   
   <h1 id="youAre"></h1>
   <p id="image"></p>
-  <p id="msg"></p>
+  <p id="desc"></p>
   <p> If you liked it, share it! 
   
   <div class="fb-share-button" data-href="https://methodsofmath.github.io/mathematicians/" data-layout="button_count" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fmethodsofmath.github.io%2Fmathematicians%2F&amp;src=sdkpreparse">Share</a></div> </p>
@@ -55,7 +55,7 @@ mi = randomElementOf(mathematicians);
 document.getElementById("title").innerHTML = "You are " + mi.name;
 document.getElementById("image").innerHTML = '<img src="images/' + mi.image + '">';
 document.getElementById("youAre").innerHTML = "You are " + mi.name;
-document.getElementyById("msg").innerHTML = mi.des;
+document.getElementById("desc").innerHTML = mi.des;
 
 </script>
   
