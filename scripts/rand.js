@@ -30,7 +30,7 @@ mathematicians = [{
   {
     "name": "Euler",
     "des": "You see the beauty in complex trigonometry. Your influence will grow exponentially.",
-    "image": "Euler.jpg"
+    "image": "euler.jpg"
   }
 ];
 
