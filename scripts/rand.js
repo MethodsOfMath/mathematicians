@@ -4,7 +4,7 @@ function randomElementOf(theArray) {
 
 mathematicians = [{
     "name" : "Galileo",
-    "des": "You cannot stand devotion to archaic works that do not stand up to emprical evidence. You may go along to get along, but you'll mutter the truth under your breath",
+    "des": "You cannot stand devotion to archaic works that do not stand up to emprical evidence. You may go along to get along, but you'll mutter the truth under your breath.",
     "image": "galileo.jpg"
   },
   {
@@ -21,6 +21,16 @@ mathematicians = [{
       "name": "Ada Lovelace",
      "des": "You take numbers and language and make them work for you.",
      "image": "ada.jpg"
+  },
+  {
+    "name": "Archimedes",
+    "des": "If you had a big enough lever, you could move the world. Some of your best ideas come to you in the bathtub."
+    "image": "arch.jpg"
+  },
+  {
+    "name": "Euler",
+    "des": "You see the beauty in complex trigonometry. Your influence will grow exponentially.",
+    "image": "Euler.jpg"
   }
 ];
 
