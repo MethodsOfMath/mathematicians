@@ -4,6 +4,7 @@
 </head>
 
 <body>
+  <p id="msg"></p>
 <p id="image"></p>
 </body>
 
@@ -13,15 +14,21 @@ function randomElementOf(theArray) {
 } // close function
 
 mathematicians = [{
-"name" : "Galileo",
-"des": "You cannot stand devotion to archaic works that do not stand up to emprical evidence. You may go along to get along, but you'll mutter the truth under your breath",
-"image": "galileo.jpg"
-}
+    "name" : "Galileo",
+    "des": "You cannot stand devotion to archaic works that do not stand up to emprical evidence. You may go along to get along, but you'll mutter the truth under your breath",
+    "image": "galileo.jpg"
+  },
+  {
+      "name": "Isaac Newton",
+     "des": "You see further by standing on the shoulders of giants.",
+     "image": "newton.jpg"
+  }
 ];
 
 mi = randomElementOf(mathematicians);
 
 document.getElementById("title").innerHTML = "You are " + mi.name;
 document.getElementById("image").innerHTML = '<img scr = "images/' + mi.image + '">'; 
+document.getElementyById("msg").innnerHTML = mi.des;
 
 </script>
